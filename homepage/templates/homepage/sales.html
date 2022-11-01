@@ -1,0 +1,198 @@
+{% extends 'homepage/base.html' %}
+{% load static %}
+
+
+{% block "CONTENT" %}
+
+<div class="services pt-70 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service-card">
+                            <div class="service-card-img">
+                                <a href="#"><img src="{% static '' %}assets/images/services/dell 1.jpg" alt="image"></a>
+                            </div>
+                            <div class="service-card-text-area">
+                                <h4><a href="#">Dell Inspiron 14 10th Gen - 14"</a></h4>
+                                <p> - Intel Core I3 - SSD - 8GB RAM - 1TB HDD - Windows 10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service-card">
+                            <div class="service-card-img">
+                                <a href="#"><img src="{% static '' %}assets/images/services/hp 1.jpg" alt="image"></a>
+                            </div>
+                            <div class="service-card-text-area">
+                                <h4><a href="#">HP Pavilion Laptop </a></h4>
+                                <p>15-eg0153nia, 15.6", Intel® Core™ i5, 8GB RAM, 512GB SSD, FHD, Fog blue</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service-card">
+                            <div class="service-card-img">
+                                <a href="#"><img src="{% static '' %}assets/images/services/asus 1.jpg" alt="image"></a>
+                            </div>
+                            <div class="service-card-text-area">
+                                <h4><a href="#">Asus Mini Notebook</a></h4>
+                                <p>Intel Celeron 4GB RAM 500GB HDD 11.6' Wins 10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service-card">
+                            <div class="service-card-img">
+                                <a href="#"><img src="{% static '' %}assets/images/services/dell  2.jpg" alt="image"></a>
+                            </div>
+                            <div class="service-card-text-area">
+                                <h4><a href="#">Asus Mini Notebook </a></h4>
+                                <p> Intel Celeron 4GB RAM 500GB HDD 11.6' Wins 10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service-card">
+                            <div class="service-card-img">
+                                <a href="#"><img src="{% static '' %}assets/images/services/hp2.jpg" alt="image"></a>
+                            </div>
+                            <div class="service-card-text-area">
+                                <h4><a href="#">HP Pavilion 14 X360 </a></h4>
+                                <p>11th Gen Core i3 512 SSD, 8GB Touchscreen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="service-card">
+                            <div class="service-card-img">
+                                <a href="#"><img src="{% static '' %}assets/images/services/hp5.jpg" alt="image"></a>
+                            </div>
+                            <div class="service-card-text-area">
+                                <h4><a href="#">HP 15.6"</a></h4>
+                                <p>HP 15.6" - Intel Core I3-1115g4 - SSD - 8GB RAM - 256GB - Windows 10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="paginations mt-30">
+                    <ul>
+                        <li><a href="javascript:void(0)"><span><i class="fas fa-angle-left"></i></span></a></li>
+                        <li class="active"><a href="javascript:void(0)"><span>1</span></a></li>
+                        <li><a href="javascript:void(0)"><span>2</span></a></li>
+                        <li><a href="javascript:void(0)"><span><i class="fas fa-angle-right"></i></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="sidebar-area mt-30 pl-20">
+                    <div class="sidebar-services">
+                        <ul>
+                            <li><a class="active" href="#"><span>Dell Products</span> </a></li>
+                            <li><a href="#"><span>Hp Products</span> </a></li>
+                            <li><a href="#"><span>ASUS Products</span> </a></li>
+                            <li><a href="#"><span>Gateway Products</span> </a></li>
+                            <li><a href="#"><span>Lenovo Prodcuts</span> </a></li>
+                            <li><a href="#"><span>Acer Products</span> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="contact ptb-100 ">
+    <div class="container">
+        <div class="row g-5 justify-content-center">
+            <div class="col-lg-6">
+                <div class="contact-form-text-area">
+                    <form id="contactForm">
+                        <div class="row">
+                            <h3 class="text-center pb-4">Place your order</h3>
+
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" id="name" required
+                                        data-error="Please enter your name">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Email"
+                                        id="email" required data-error="Please enter your Email">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <input type="text" name="phone_number" class="form-control"
+                                        placeholder="Phone Number" id="phone_number" required
+                                        data-error="Please enter your phone number">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <select name="laptop-type" id="laptop" class="form-control">
+                                        <option value="Hp">Laptop Model</option>
+                                        <option value="Hp">HP</option>
+                                        <option value="Dell">Dell</option>
+                                        <option value="Asus">ASUS</option>
+                                        <option value="Gateway">Gateway</option>
+                                        <option value="Acer">Acer</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-12">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" class="form-control"
+                                        placeholder="Laptop Specification" cols="30" rows="5" required
+                                        data-error="Please enter your desired Specification"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-12">
+                                <button class="default-button" type="submit"><span>Place Order</span></button>
+                                <div id="msgSubmit" class="h6 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="newsletter ptb-100">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="newsletter-text-area">
+                    <h3>Join Our Newsletter</h3>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="newsletter-form-area pt-30">
+                    <form class="newsletter-form" data-toggle="validator">
+                        <div class="input-group">
+                            <input type="email" class="input-newsletter form-control" placeholder="Your Email"
+                                name="EMAIL" required autocomplete="off">
+                            <button class="default-button" type="submit"><span><i
+                                        class="flaticon-paper-plane"></i></span></button>
+                        </div>
+                    </form>
+                    <div id="validator-newsletter" class="form-result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock "CONTENT" %}

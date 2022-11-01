@@ -1,0 +1,221 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+
+
+{% block "CONTENT" %}
+<div class="uni-banner">
+    <div class="container-fluid container-large">
+        <div class="uni-banner-text-area">
+            <h1>About Us</h1>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="about ptb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-text-area pr-20">
+                    <div class="default-section-title">
+                        <span>About Us</span>
+                        <h3>We Can Fix All Types Of Computer And Mobiles</h3>
+                        <p>We have performed tens of thousands of cell phone repairs including screen replacements
+                            and button fixes. But we offer our customers so much more than smartphone repair
+                            services. We continue to hire and train
+                            computer repair specialists and are pleased to expand our array of services to include
+                            all forms of electronics repair. Our services include computer and laptop repair as well
+                            as video game and miscellaneous repairs such as digital camera LCD displays. If you have
+                            an electronics device that is giving you trouble call us today!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-img-area">
+                    <img src="{% static '' %}assets/images/about/about1.jpg" alt="image">
+                    <div class="about-img-text">
+                        <i class="flaticon-badge"></i>
+                        <h4>03 Years</h4>
+                        <p>of Experiences</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="services ptb-100 bg-f9f9f9">
+    <div class="container">
+        <div class="default-section-title default-section-title-middle">
+            <span>Our Services</span>
+            <h3>What We Offer to Our Customers</h3>
+        </div>
+        <div class="section-content">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="service-card">
+                        <div class="service-card-img">
+                            <a href="{% url 'sales' %}"><img src="{% static '' %}assets/images/services/service1.jpg" alt="image"></a>
+                        </div>
+                        <div class="service-card-text-area">
+                            <i class="flaticon-repairing-service main-icon"></i>
+                            <h4><a href="{% url 'sales' %}">Computer Sales</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                                ullamcorper mattis, pulvinar dapibus leo.</p>
+                            <a class="read-more-btn" href="{% url 'sales' %}">Read More <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="service-card">
+                        <div class="service-card-img">
+                            <a href="{% url 'repairs' %}"><img src="{% static '' %}assets/images/services/service2.jpg" alt="image"></a>
+                        </div>
+                        <div class="service-card-text-area">
+                            <i class="flaticon-mechanics main-icon"></i>
+                            <h4><a href="{% url 'repairs' %}">Mobile and Computer Repairs </a></h4>
+                            <p>we are known for our expert repair skills, at CellQuick Giant we actually specialize
+                                in repairing and servicing electronic devices of all shapes and sizes.</p>
+                            <a class="read-more-btn" href="{% url 'repairs' %}">Read More <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="service-card">
+                        <div class="service-card-img">
+                            <a href="{% url 'cctv-installations' %}"><img src="{% static '' %}assets/images/services/service3.jpg" alt="image"></a>
+                        </div>
+                        <div class="service-card-text-area">
+                            <i class="flaticon-big-gear main-icon"></i>
+                            <h4><a href="{% url 'cctv-installations' %}">CCTV Installation</a></h4>
+                            <p> We have expert knowledge of CCTV systems for business and home. We offer CCTV
+                                installation, servicing and support. Find out more about our </p>
+                            <a class="read-more-btn" href="{% url 'cctv-installations' %}">Read More <i
+                                    class="flaticon-right-arrow"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer-button">
+                <a class="default-button default-button-2 mt-30" href="{% url 'about' %}"><span>Browse Services <i
+                            class="flaticon-right-arrow"></i></span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="ff-intro ff-intro-1">
+    <div class="container">
+        <div class="intro-video-area ptb-100">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                    <div class="intro-video-text-area">
+                        <div class="default-section-title color-title">
+                            <h3>Fast and Excellent Care for Your Computers</h3>
+                        </div>
+                        <a class="default-button mt-30" href="{% url 'contact-us' %}"><span>Browse Services <i
+                                    class="flaticon-right-arrow"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                    <div class="intro-video-play-area pt-30">
+                        <a class="video-popup"
+                            href="https://www.youtube.com/"> <i
+                                class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="team ptb-100">
+    <div class="container">
+        <div class="default-section-title default-section-title-middle">
+            <span>Experts For CellQuick</span>
+            <h3>Meet Our Expert Team Members</h3>
+        </div>
+        <div class="section-content">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="team-card">
+                        <div class="team-card-img">
+                            <img src="{% static '' %}assets/images/team/team1.jpg" alt="image">
+                        </div>
+                        <div class="team-card-text">
+                            <h4>Ken Kasuragi</h4>
+                            <p>PC Specialist</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="team-card">
+                        <div class="team-card-img">
+                            <img src="{% static '' %}assets/images/team/team2.jpg" alt="image">
+                        </div>
+                        <div class="team-card-text">
+                            <h4>David Brown</h4>
+                            <p>Android Specialist</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="team-card">
+                        <div class="team-card-img">
+                            <img src="{% static '' %}assets/images/team/team3.jpg" alt="image">
+                        </div>
+                        <div class="team-card-text">
+                            <h4>Jordan Mikel</h4>
+                            <p>Tech Specialist</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="sign-up ptb-100">
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="sign-up-form-area">
+                    <div class="default-section-title color-title">
+                        <h3>Sign Up For Repair</h3>
+                        <p>Enter your contact details to schedule a repair.</p>
+                    </div>
+                    <form>
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="ship-different-address" required />
+                            <label class="form-check-label" for="ship-different-address">I agree to the Privacy
+                                Policy and Terms of Service.</label>
+                        </div>
+                        <button class="default-button"><span>Submit Rrequest</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock "CONTENT" %}

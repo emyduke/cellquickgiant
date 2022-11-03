@@ -54,9 +54,9 @@
         <div class="main-responsive-nav">
             <div class="container-fluid container-large">
                 <div class="mobile-nav">
-                    <a href="index.html" class="logo"><img src="{% static '' %}assets/images/cellquick_logo.png" alt="logo" /></a>
+                    <a href="{% url 'home' %}" class="logo"><img src="{% static '' %}assets/images/cellquick_logo.png" alt="logo" /></a>
                     <ul class="menu-sidebar menu-small-device">
-                        <li><a class="default-button" href="contact.html">Book Now<i
+                        <li><a class="default-button" href="{% url 'contact-us' %}">Book Now<i
                                     class="flaticon-right-arrow"></i></a></li>
                     </ul>
                 </div>
